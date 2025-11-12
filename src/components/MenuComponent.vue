@@ -23,13 +23,13 @@
                             <router-link class="nav-link active-link" aria-current="page" to="/">Home</router-link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/login">Login</a>
+                            <router-link class="nav-link" to="/login">Login</router-link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/perfil">Perfil empleado</a>
+                            <router-link class="nav-link" to="/perfil">Perfil empleado</router-link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/subordinados">Empleados subordinados</a>
+                            <router-link class="nav-link" to="/subordinados">Empleados subordinados</router-link>
                         </li>
                     </ul>
                     
